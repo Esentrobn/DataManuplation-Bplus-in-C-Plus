@@ -1,0 +1,9 @@
+The unsorted records are from the data file: data_str.txt
+The sorted records are placed in the data file called: outstr.txt
+The number of records that can fit in memory are 4
+The number of records are 67
+The number of runs are 4
+The smallest number of records in all of the runs is 3
+The largest number of records in all of the runs is 27
+The arithmetic mean number of records in all of the runs is 16
+The height of the tournament tree for the merge is 7

@@ -1,0 +1,172 @@
+Script started on December 10, 2016 02:06:18 AM CST
+> cd Desktop/Bplus
+> ls
+a.out                  data_str2.txt          testfile.txt
+Bplusmain.cpp          DualHeap.h             Tournament.h
+Bplusmain.cpp~         integertypescript.txt  typescript
+BPT.h                  logFile.txt            
+data_int.txt           Makefile
+data_str.txt           SequenceSet.h
+> g++ Bplusmain.cpp
+> make
+g++ Bplusmain.cpp -o main
+ma> ma[K[Kmain
+---------------- RECORD SORTING 
+> Do you want to sort records in a file?: 
+  1 Yes 
+  2 No 
+> 1
+> Please enter input file name: data_int.txt
+> Please enter output file name: outint.txt
+Sorting records and saving into a file succeeded.
+-------------- RECORD ORGANIZATION 
+> Do you want to manage records in a file?: 
+  1 Yes 
+  2 No 
+> 1
+> Please select a record data type: 
+  1 integer(int) 
+  2 string(str) 
+> 1
+> Please type in one of the following options: 
+  1 to open and read a file 
+  2 to print record information 
+  3 to modify a record
+  4 to insert a record 
+  5 to delete a record 
+  0 to exit 
+> Please indicate your choice of operation: 1
+> Please enter input file name: data_int.txt
+> Successfully read.
+Please indicate your choice of operation: 2
+1|13|24| |42|63|73|91|94|97| |99|105|115|123| |124|144|149|153|157| |165|169|188|194| |195|196|228|228| |249|267|272| |278|298|298|303| |327|335|336|337| |357|393|404|408|425|438| |440|451|485|490| |492|501|503|505| |512|517|530|536| |544|549|560|566| |579|612|629|633|635| |658|666|668|669|672|708| |709|709|716|722| |729|745|752|801| |807|810|814|816| |821|826|840| |853|865|878|882|903| |923|930|933|933| |944|967|977|979|981|987| | |
+Please indicate your choice of operation: 3
+> Please enter a record to be modified.
+3 105
+> Please enter a new value.
+102
+> Successfully modified.
+Please indicate your choice of operation: 2
+1|13|24| |42|63|73|91|94|97| |99|102|115|123| |124|144|149|153|157| |165|169|188|194| |195|196|228|228| |249|267|272| |278|298|298|303| |327|335|336|337| |357|393|404|408|425|438| |440|451|485|490| |492|501|503|505| |512|517|530|536| |544|549|560|566| |579|612|629|633|635| |658|666|668|669|672|708| |709|709|716|722| |729|745|752|801| |807|810|814|816| |821|826|840| |853|865|878|882|903| |923|930|933|933| |944|967|977|979|981|987| | |
+> Please type in one of the following options: 
+  1 to open and read a file 
+  2 to print record information 
+  3 to modify a record
+  4 to insert a record 
+  5 to delete a record 
+  0 to exit 
+Please indicate your choice of operation: 4
+> Please enter a new record.
+802
+> Successfully inserted.
+Please indicate your choice of operation: 2
+1|13|24| |42|63|73|91|94|97| |99|102|115|123| |124|144|149|153|157| |165|169|188|194| |195|196|228|228| |249|267|272| |278|298|298|303| |327|335|336|337| |357|393|404|408|425|438| |440|451|485|490| |492|501|503|505| |512|517|530|536| |544|549|560|566| |579|612|629|633|635| |658|666|668|669|672|708| |709|709|716|722| |729|745|752|801|802| |807|810|814|816| |821|826|840| |853|865|878|882|903| |923|930|933|933| |944|967|977|979|981|987| | |
+Please indicate your choice of operation: 5
+> Please enter a record to be deleted.
+933
+> Successfully deleted.
+Please indicate your choice of operation: 2
+1|13|24| |42|63|73|91|94|97| |99|102|115|123| |124|144|149|153|157| |165|169|188|194| |195|196|228|228| |249|267|272| |278|298|298|303| |327|335|336|337| |357|393|404|408|425|438| |440|451|485|490| |492|501|503|505| |512|517|530|536| |544|549|560|566| |579|612|629|633|635| |658|666|668|669|672|708| |709|709|716|722| |729|745|752|801|802| |807|810|814|816| |821|826|840| |853|865|878|882|903| |923|930|933| |944|967|977|979|981|987| | |
+> Please type in one of the following options: 
+  1 to open and read a file 
+  2 to print record information 
+  3 to modify a record
+  4 to insert a record 
+  5 to delete a record 
+  0 to exit 
+Please indicate your choice of operation: 5
+> Please enter a record to be deleted.
+1
+> Successfully deleted.
+Please indicate your choice of operation: 2
+13|24| |42|63|73|91|94|97| |99|102|115|123| |124|144|149|153|157| |165|169|188|194| |195|196|228|228| |249|267|272| |278|298|298|303| |327|335|336|337| |357|393|404|408|425|438| |440|451|485|490| |492|501|503|505| |512|517|530|536| |544|549|560|566| |579|612|629|633|635| |658|666|668|669|672|708| |709|709|716|722| |729|745|752|801|802| |807|810|814|816| |821|826|840| |853|865|878|882|903| |923|930|933| |944|967|977|979|981|987| | |
+Please indicate your choice of operation: 1
+> Please enter input file name: data_str.txt
+> Successfully read.
+Please indicate your choice of operation: 2
+13|24| |42|63|73|91|94|97| |99|102|115|123| |124|144|149|153|157| |165|169|188|194| |195|196|228|228| |249|267|272| |278|298|298|303| |327|335|336|337| |357|393|404|408|425|438| |440|451|485|490| |492|501|503|505| |512|517|530|536| |544|549|560|566| |579|612|629|633|635| |658|666|668|669|672|708| |709|709|716|722| |729|745|752|801|802| |807|810|814|816| |821|826|840| |853|865|878|882|903| |923|930|933| |944|967|977|979|981|987| | |
+> Please type in one of the following options: 
+  1 to open and read a file 
+  2 to print record information 
+  3 to modify a record
+  4 to insert a record 
+  5 to delete a record 
+  0 to exit 
+Please indicate your choice of operation: 0
+Thank you! Good-bye!!
+> 1
+1: Command not found.
+> a.out
+---------------- RECORD SORTING 
+> Do you want to sort records in a file?: 
+  1 Yes 
+  2 No 
+> 1
+> Please enter input file name: data_str.txt
+> Please enter output file name: outstr.txt
+Sorting records and saving into a file succeeded.
+-------------- RECORD ORGANIZATION 
+> Do you want to manage records in a file?: 
+  1 Yes 
+  2 No 
+> 1
+> Please select a record data type: 
+  1 integer(int) 
+  2 string(str) 
+> 2
+> Please type in one of the following options: 
+  1 to open and read a file 
+  2 to print record information 
+  3 to modify a record
+  4 to insert a record 
+  5 to delete a record 
+  0 to exit 
+> Please indicate your choice of operation: 1
+> Please enter input file name: data_str.txt
+> Successfully read.
+Please indicate your choice of operation: 2
+
+| | | | | | | | | | | | | | | | | | | |Afghanistan|Armenia| |Azerbaijan|Bahrain|Bangladesh|Belarus| |Bhutan|Cambodia|China|Cyprus|Georgia| |India|Indonesia|Iran| |Iraq|Israel|Japan|Japan|Jordan| |Kazakhstan|Kuwait|Kyrgystan|Laos| |Lebanon|Malaysia|Maldives| |Mongolia|Myanmar|Nepal| |North Korea|Oman|Pakistan|Palestine| |Qatar|Russia|Saudiarabia| |Singapore|South Korea|Srilanka|Syria| |Taiwan|Tajikistan|Thailand|Timor-Leste|Turkey| |Turkmenistan|UAE|Utah|Uzbekistan|Vietnam|Yemen| | |
+Please indicate your choice of operation: 3
+> Please enter a record to be modified.
+japan     Japan
+> Please enter a new value.
+Ethiopia
+> Successfully modified.
+Please indicate your choice of operation: 2
+
+| | | | | | | | | | | | | | | | | | | |Afghanistan|Armenia| |Azerbaijan|Bahrain|Bangladesh|Belarus| |Bhutan|Cambodia|China|Cyprus|Ethiopia|Georgia| |India|Indonesia|Iran| |Iraq|Israel|Japan|Jordan| |Kazakhstan|Kuwait|Kyrgystan|Laos| |Lebanon|Malaysia|Maldives| |Mongolia|Myanmar|Nepal| |North Korea|Oman|Pakistan|Palestine| |Qatar|Russia|Saudiarabia| |Singapore|South Korea|Srilanka|Syria| |Taiwan|Tajikistan|Thailand|Timor-Leste|Turkey| |Turkmenistan|UAE|Utah|Uzbekistan|Vietnam|Yemen| | |
+> Please type in one of the following options: 
+  1 to open and read a file 
+  2 to print record information 
+  3 to modify a record
+  4 to insert a record 
+  5 to delete a record 
+  0 to exit 
+Please indicate your choice of operation: 4
+> Please enter a new record.
+USA
+> Successfully inserted.
+Please indicate your choice of operation: 2
+
+| | | | | | | | | | | | | | | | | | | |Afghanistan|Armenia| |Azerbaijan|Bahrain|Bangladesh|Belarus| |Bhutan|Cambodia|China|Cyprus|Ethiopia|Georgia| |India|Indonesia|Iran| |Iraq|Israel|Japan|Jordan| |Kazakhstan|Kuwait|Kyrgystan|Laos| |Lebanon|Malaysia|Maldives| |Mongolia|Myanmar|Nepal| |North Korea|Oman|Pakistan|Palestine| |Qatar|Russia|Saudiarabia| |Singapore|South Korea|Srilanka|Syria| |Taiwan|Tajikistan|Thailand|Timor-Leste|Turkey| |Turkmenistan|UAE|USA| |Utah|Uzbekistan|Vietnam|Yemen| | |
+Please indicate your choice of operation: 5
+> Please enter a record to be deleted.
+Afghanistan
+> Successfully deleted.
+Please indicate your choice of operation: 2
+
+| | | | | | | | | | | | | | | | | | | |Armenia| |Azerbaijan|Bahrain|Bangladesh|Belarus| |Bhutan|Cambodia|China|Cyprus|Ethiopia|Georgia| |India|Indonesia|Iran| |Iraq|Israel|Japan|Jordan| |Kazakhstan|Kuwait|Kyrgystan|Laos| |Lebanon|Malaysia|Maldives| |Mongolia|Myanmar|Nepal| |North Korea|Oman|Pakistan|Palestine| |Qatar|Russia|Saudiarabia| |Singapore|South Korea|Srilanka|Syria| |Taiwan|Tajikistan|Thailand|Timor-Leste|Turkey| |Turkmenistan|UAE|USA| |Utah|Uzbekistan|Vietnam|Yemen| | |
+> Please type in one of the following options: 
+  1 to open and read a file 
+  2 to print record information 
+  3 to modify a record
+  4 to insert a record 
+  5 to delete a record 
+  0 to exit 
+Please indicate your choice of operation: 0
+Thank you! Good-bye!!
+> main[K[K[K[Kexit
+exit
+
+script done on December 10, 2016 02:12:32 AM CST

@@ -1,0 +1,95 @@
+Script started on December 10, 2016 01:55:03 AM CST
+> cd 
+> cd Desktop/proj3bplus
+> ls
+a.out            data_int.txt     logFile.txt      Tournament.h
+Bplusmain.cpp    data_str.txt     Makefile         typescript
+Bplusmain.cpp~   data_str2.txt    SequenceSet.h    userManual.docx
+BPT.h            DualHeap.h       testfile.txt
+> pwd
+/export/home/cs331/cs331109/Desktop/proj3bplus
+> g++ Bplusmau[Kin.cpp
+> make
+g++ Bplusmain.cpp -o main
+> main
+---------------- RECORD SORTING 
+> Do you want to sort records in a file?: 
+  1 Yes 
+  2 No 
+> 1
+> Please enter input file name: dat_ a_int.txt
+> Please enter output file name: outint   _int.txt
+Sorting records and saving into a file succeeded.
+-------------- RECORD ORGANIZATION 
+> Do you want to manage records in a file?: 
+  1 Yes 
+  2 No 
+> 1
+> Please select a record data type: 
+  1 integer(int) 
+  2 string(str) 
+> 1
+> Please type in one of the following options: 
+  1 to open and read a file 
+  2 to print record information 
+  3 to modify a record
+  4 to insert a record 
+  5 to delete a record 
+  0 to exit 
+> Please indicate your choice of operation: 1
+> Please enter input file name: data_int.txt
+> Successfully read.
+Please indicate your choice of operation: 2
+1|13|24| |42|63|73|91|94|97| |99|105|115|123| |124|144|149|153|157| |165|169|188|194| |195|196|228|228| |249|267|272| |278|298|298|303| |327|335|336|337| |357|393|404|408|425|438| |440|451|485|490| |492|501|503|505| |512|517|530|536| |544|549|560|566| |579|612|629|633|635| |658|666|668|669|672|708| |709|709|716|722| |729|745|752|801| |807|810|814|816| |821|826|840| |853|865|878|882|903| |923|930|933|933| |944|967|977|979|981|987| | |
+Please indicate your choice of operation: 3
+> Please enter a record to be modified.
+63
+> Please enter a new value.
+64
+> Successfully modified.
+Please indicate your choice of operation: 2
+1|13|24| |42|64|73|91|94|97| |99|105|115|123| |124|144|149|153|157| |165|169|188|194| |195|196|228|228| |249|267|272| |278|298|298|303| |327|335|336|337| |357|393|404|408|425|438| |440|451|485|490| |492|501|503|505| |512|517|530|536| |544|549|560|566| |579|612|629|633|635| |658|666|668|669|672|708| |709|709|716|722| |729|745|752|801| |807|810|814|816| |821|826|840| |853|865|878|882|903| |923|930|933|933| |944|967|977|979|981|987| | |
+> Please type in one of the following options: 
+  1 to open and read a file 
+  2 to print record information 
+  3 to modify a record
+  4 to insert a record 
+  5 to delete a record 
+  0 to exit 
+Please indicate your choice of operation: 3
+> Please enter a record to be modified.
+944
+> Please enter a new value.
+1523
+> Successfully modified.
+Please indicate your choice of operation: 2
+1|13|24| |42|64|73|91|94|97| |99|105|115|123| |124|144|149|153|157| |165|169|188|194| |195|196|228|228| |249|267|272| |278|298|298|303| |327|335|336|337| |357|393|404|408|425|438| |440|451|485|490| |492|501|503|505| |512|517|530|536| |544|549|560|566| |579|612|629|633|635| |658|666|668|669|672|708| |709|709|716|722| |729|745|752|801| |807|810|814|816| |821|826|840| |853|865|878|882|903| |923|930|933|933| |967|977|979|981|987|1523| | |
+Please indicate your choice of operation: 4
+> Please enter a new record.
+2
+> Successfully inserted.
+Please indicate your choice of operation: 2
+1|2|13|24| |42|64|73|91|94|97| |99|105|115|123| |124|144|149|153|157| |165|169|188|194| |195|196|228|228| |249|267|272| |278|298|298|303| |327|335|336|337| |357|393|404|408|425|438| |440|451|485|490| |492|501|503|505| |512|517|530|536| |544|549|560|566| |579|612|629|633|635| |658|666|668|669|672|708| |709|709|716|722| |729|745|752|801| |807|810|814|816| |821|826|840| |853|865|878|882|903| |923|930|933|933| |967|977|979|981|987|1523| | |
+> Please type in one of the following options: 
+  1 to open and read a file 
+  2 to print record information 
+  3 to modify a record
+  4 to insert a record 
+  5 to delete a record 
+  0 to exit 
+Please indicate your choice of operation: 5
+> Please enter a record to be deleted.
+666
+> Successfully deleted.
+Please indicate your choice of operation: 2
+1|2|13|24| |42|64|73|91|94|97| |99|105|115|123| |124|144|149|153|157| |165|169|188|194| |195|196|228|228| |249|267|272| |278|298|298|303| |327|335|336|337| |357|393|404|408|425|438| |440|451|485|490| |492|501|503|505| |512|517|530|536| |544|549|560|566| |579|612|629|633|635| |658|668|669|672|708| |709|709|716|722| |729|745|752|801| |807|810|814|816| |821|826|840| |853|865|878|882|903| |923|930|933|933| |967|977|979|981|987|1523| | |
+Please indicate your choice of operation: 5
+> Please enter a record to be deleted.
+801
+> Successfully deleted.
+Please indicate your choice of operation: 0
+Thank you! Good-bye!!
+> ezit[K[K[Kxit
+exit
+
+script done on December 10, 2016 01:58:26 AM CST
